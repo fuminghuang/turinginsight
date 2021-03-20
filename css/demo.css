@@ -1120,6 +1120,12 @@ header h1{
 	background-image: url('./../img/jhan.jpg');
 	background-position: 0 0;
 }
+.team_main_container .team_left_container #chou{
+	background-image: url('./../img/chou.jpg');
+}
+.team_main_container .team_left_container #pu{
+	background-image: url('./../img/pu.jpg');
+}
 .team_right_container .team_info_container{
 	height: 200px;
 	display: flex;
