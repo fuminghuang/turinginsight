@@ -131,11 +131,17 @@ function award_more_btn(){
 }
 
 function product_more_btn(){
+	$('#pd1').click(function(){
+		window.open('http://simi.turinginsight.tech')
+	})
 	$('#pd3').click(function(){
 		window.open('http://pipi.turinginsight.tech')
 	})
 	$('#pd4').click(function(){
 		window.open('http://thisai.turinginsight.tech')
+	})
+	$('#pd5').click(function(){
+		window.open('http://pstracker.turinginsight.tech/')
 	})
 }
 
