@@ -815,7 +815,7 @@ header p {
     margin: 4px 0 0 0;
     z-index: 14;
     line-height: 1em;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     color: #fff;
 }
 
@@ -1224,7 +1224,10 @@ header p {
 
 .team_main_container .team_left_container #jhan {
     background-image: url('./../img/jhan.jpg');
-    background-position: 0 0;
+}
+
+.team_main_container .team_left_container #liang {
+    background-image: url('./../img/liang.jpg');
 }
 
 .team_main_container .team_left_container #chou {
@@ -1349,7 +1352,6 @@ header p {
         font-size: 12px;
         letter-spacing: 1px;
     }
-    #research_projrct {}
     #research_project,
     #honors_and_awards {
         top: -90px;
